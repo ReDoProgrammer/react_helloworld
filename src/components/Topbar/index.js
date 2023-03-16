@@ -3,7 +3,7 @@ function Topbar() {
         <div className="row align-items-center py-4 px-xl-5">
             <div className="col-lg-3">
                 <a href="" className="text-decoration-none">
-                    <h1 className="m-0"><span className="text-primary">E</span>COURSES</h1>
+                    <h1 className="m-0"><span className="text-primary">Hello</span>WORLD</h1>
                 </a>
             </div>
             <div className="col-lg-3 text-right">
@@ -20,7 +20,7 @@ function Topbar() {
                     <i className="fa fa-2x fa-envelope text-primary mr-3"></i>
                     <div className="text-left">
                         <h6 className="font-weight-semi-bold mb-1">Email Us</h6>
-                        <small>info@example.com</small>
+                        <small>info@helloworld.edu.vn</small>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ function Topbar() {
                     <i className="fa fa-2x fa-phone text-primary mr-3"></i>
                     <div className="text-left">
                         <h6 className="font-weight-semi-bold mb-1">Call Us</h6>
-                        <small>+012 345 6789</small>
+                        <small>+849113997764</small>
                     </div>
                 </div>
             </div>
