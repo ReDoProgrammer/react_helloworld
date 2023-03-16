@@ -1,39 +1,84 @@
 function Team() {
-    return (  <div className="container-fluid py-5">
-    <div className="container py-5">
+    return (    <div className="container-fluid py-5">
+    <div className="container pt-5 pb-3">
         <div className="text-center mb-5">
-            <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px"}}>Testimonial</h5>
-            <h1>What Say Our Students</h1>
+            <h5 className="text-primary text-uppercase mb-3" style={{letterSpacing: "5px;"}}>Teachers</h5>
+            <h1>Meet Our Teachers</h1>
         </div>
-        <div className="row justify-content-center">
-            <div className="col-lg-8">
-                <div className="owl-carousel testimonial-carousel">
-                    <div className="text-center">
-                        <i className="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                        <h4 className="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                            Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
-                            eirmod eos labore diam</h4>
-                        <img className="img-fluid mx-auto mb-3" src="asset/img/testimonial-1.jpg" alt=""/>
-                        <h5 className="m-0">Client Name</h5>
-                        <span>Profession</span>
+        <div className="row">
+            <div className="col-md-6 col-lg-3 text-center team mb-4">
+                <div className="team-item rounded overflow-hidden mb-2">
+                    <div className="team-img position-relative">
+                        <img className="img-fluid" src="asset/img/team-1.jpg" alt=""/>
+                        <div className="team-social">
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-twitter"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-linkedin-in"></i></a>
+                        </div>
                     </div>
-                    <div className="text-center">
-                        <i className="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                        <h4 className="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                            Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
-                            eirmod eos labore diam</h4>
-                        <img className="img-fluid mx-auto mb-3" src="asset/img/testimonial-2.jpg" alt=""/>
-                        <h5 className="m-0">Client Name</h5>
-                        <span>Profession</span>
+                    <div className="bg-secondary p-4">
+                        <h5>Jhon Doe</h5>
+                        <p className="m-0">Web Designer</p>
                     </div>
-                    <div className="text-center">
-                        <i className="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                        <h4 className="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
-                            Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet
-                            eirmod eos labore diam</h4>
-                        <img className="img-fluid mx-auto mb-3" src="asset/img/testimonial-3.jpg" alt=""/>
-                        <h5 className="m-0">Client Name</h5>
-                        <span>Profession</span>
+                </div>
+            </div>
+            <div className="col-md-6 col-lg-3 text-center team mb-4">
+                <div className="team-item rounded overflow-hidden mb-2">
+                    <div className="team-img position-relative">
+                        <img className="img-fluid" src="asset/img/team-2.jpg" alt=""/>
+                        <div className="team-social">
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-twitter"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div className="bg-secondary p-4">
+                        <h5>Jhon Doe</h5>
+                        <p className="m-0">Web Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-6 col-lg-3 text-center team mb-4">
+                <div className="team-item rounded overflow-hidden mb-2">
+                    <div className="team-img position-relative">
+                        <img className="img-fluid" src="asset/img/team-3.jpg" alt=""/>
+                        <div className="team-social">
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-twitter"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div className="bg-secondary p-4">
+                        <h5>Jhon Doe</h5>
+                        <p className="m-0">Web Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-6 col-lg-3 text-center team mb-4">
+                <div className="team-item rounded overflow-hidden mb-2">
+                    <div className="team-img position-relative">
+                        <img className="img-fluid" src="asset/img/team-4.jpg" alt=""/>
+                        <div className="team-social">
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-twitter"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-light btn-square mx-1" href="#"><i
+                                    className="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div className="bg-secondary p-4">
+                        <h5>Jhon Doe</h5>
+                        <p className="m-0">Web Designer</p>
                     </div>
                 </div>
             </div>
